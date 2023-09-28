@@ -1,5 +1,5 @@
 {% set name = "batoid-rubin" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/batoid_rubin-{{ version }}.tar.gz
-  sha256: 61688af295b06aef48915402106f4660365f2674cbfa7e85e8e4256c823e4dc9
+  sha256: d87f8977d498363c8b1d17242240e79aadd5d6cae5ed8b5bdeb23b3f6e37019b
 
 build:
   noarch: python
