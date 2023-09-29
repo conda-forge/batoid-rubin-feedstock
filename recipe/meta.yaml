@@ -30,6 +30,7 @@ requirements:
     - scipy
     - danish >=0.2.0
     - __unix
+    - zenodo_get
 
 test:
   imports:
