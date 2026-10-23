@@ -1,13 +1,13 @@
 {% set name = "batoid-rubin" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/batoid_rubin-{{ version }}.tar.gz
-  sha256: 58623fec72ae6d7ada75a85f4abde34ddd1061966e9e3a52d1e479501d64cb63
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/batoid_rubin-{{ version }}.tar.gz
+  sha256: 6f611cda7de2bef891749d2eaf99d63ddb0829531a6c77e88df2426d5f0e79af
 
 build:
   noarch: python
@@ -31,6 +31,7 @@ requirements:
     - danish >=0.2.0
     - __unix
     - zenodo_get
+    - requests
 
 test:
   imports:
