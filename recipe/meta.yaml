@@ -31,6 +31,7 @@ requirements:
     - danish >=0.2.0
     - __unix
     - zenodo_get
+    - requests
 
 test:
   imports:
